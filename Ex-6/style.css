@@ -1,0 +1,9 @@
+html {
+    background-color: #3e75a4;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1:hover {
+    color: #a4ccef
+}
