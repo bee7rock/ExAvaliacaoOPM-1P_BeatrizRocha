@@ -1,0 +1,1 @@
+alert('Olá Mundo! Vamos fazer contas simples.')
