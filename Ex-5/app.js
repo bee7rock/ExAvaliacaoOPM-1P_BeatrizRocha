@@ -7,13 +7,12 @@ let numeroAdivinha = prompt('Por favor, insira um número de 1 a 10!')
 
 let ganhou = false
 
-for (let i = 0; i <= 6; i++) {
-}
+// let i = 6
 
 if (numeroAdivinha > 10 || numeroAdivinha <= 0) {
     alert('Esse número não é válido, recomeça.')
-    // } else if (numeroAdivinha != Math.floor) {
-    //     alert('Tem de ser um número inteiro! Mas vou processar a tua resposta, porque gosto do Inverno.')
+} else if (numeroAdivinha != Math.floor(numeroAdivinha)) {
+    alert('Tem de ser um número inteiro! Mas vou processar a tua resposta, porque gosto do Inverno.')
 } else {
     while (!ganhou) {
         if (numeroSorte == numeroAdivinha) {
@@ -35,3 +34,9 @@ if (numeroAdivinha > 10 || numeroAdivinha <= 0) {
         }
     }
 }
+
+// for (let i = 1; i <= 6; i++) {
+//     if (i = 1) {
+//         alert('Só tens mais uma tentativa!')
+//     }
+// }
